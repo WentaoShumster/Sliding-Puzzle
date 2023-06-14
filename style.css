@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#board {
+    width: 660px;
+    height: 400px;
+    background-color: rgb(255, 47, 47);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10%;
+    border: 10px solid white;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 163px;
+    height: 98px;
+    border: 1px solid white
+}
